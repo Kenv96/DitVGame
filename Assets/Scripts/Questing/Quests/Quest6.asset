@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618e3cf625b0d44ca87c19618650337, type: 3}
+  m_Name: Quest6
+  m_EditorClassIdentifier: 
+  questCode: 6
+  title: A New Face
+  itemReward: []
+  goldReward: 10
+  isActive: 0
+  isComplete: 0
+  questStepsSetup:
+  - goalType: 3
+    objDesc: Find the priestess in town
+    targetEnemy: 
+    requiredAmountKill: 0
+    currentAmountKill: 0
+    requiredItem: {fileID: 0}
+    requiredAmountGather: 0
+    currentAmountGather: 0
+    deliverTo: 
+    itemToBeDelivered: {fileID: 0}
+    amountToDeliver: 0
+    talkTo: Felicia
+  - goalType: 3
+    objDesc: Find the graveyard east of town
+    targetEnemy: 
+    requiredAmountKill: 0
+    currentAmountKill: 0
+    requiredItem: {fileID: 0}
+    requiredAmountGather: 0
+    currentAmountGather: 0
+    deliverTo: 
+    itemToBeDelivered: {fileID: 0}
+    amountToDeliver: 0
+    talkTo: Felicia
+  currentStep:
+    goalType: 3
+    objDesc: Find the priestess in town
+    targetEnemy: 
+    requiredAmountKill: 0
+    currentAmountKill: 0
+    requiredItem: {fileID: 0}
+    requiredAmountGather: 0
+    currentAmountGather: 0
+    deliverTo: 
+    itemToBeDelivered: {fileID: 0}
+    amountToDeliver: 0
+    talkTo: Felicia
+  questStepCount: 0

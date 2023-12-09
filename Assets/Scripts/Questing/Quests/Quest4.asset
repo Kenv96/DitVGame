@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618e3cf625b0d44ca87c19618650337, type: 3}
+  m_Name: Quest4
+  m_EditorClassIdentifier: 
+  questCode: 4
+  title: Proving Your Worth
+  itemReward: []
+  goldReward: 15
+  isActive: 0
+  isComplete: 0
+  questStepsSetup:
+  - goalType: 0
+    objDesc: Kill 5 skeletons
+    targetEnemy: Skeleton1
+    requiredAmountKill: 5
+    currentAmountKill: 0
+    requiredItem: {fileID: 11400000, guid: 51e021617d447e844a668fdf09f00fe5, type: 2}
+    requiredAmountGather: 5
+    currentAmountGather: 0
+    deliverTo: 
+    itemToBeDelivered: {fileID: 0}
+    amountToDeliver: 0
+    talkTo: 
+  - goalType: 3
+    objDesc: Return to Arden
+    targetEnemy: 
+    requiredAmountKill: 0
+    currentAmountKill: 0
+    requiredItem: {fileID: 0}
+    requiredAmountGather: 0
+    currentAmountGather: 0
+    deliverTo: Arden
+    itemToBeDelivered: {fileID: 11400000, guid: 51e021617d447e844a668fdf09f00fe5, type: 2}
+    amountToDeliver: 5
+    talkTo: Arden
+  currentStep:
+    goalType: 0
+    objDesc: Kill 5 skeletons
+    targetEnemy: Skeleton1
+    requiredAmountKill: 5
+    currentAmountKill: 0
+    requiredItem: {fileID: 11400000, guid: 51e021617d447e844a668fdf09f00fe5, type: 2}
+    requiredAmountGather: 5
+    currentAmountGather: 0
+    deliverTo: 
+    itemToBeDelivered: {fileID: 0}
+    amountToDeliver: 0
+    talkTo: 
+  questStepCount: 0
